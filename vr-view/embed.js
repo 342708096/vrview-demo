@@ -8216,7 +8216,7 @@ RotateInstructions.prototype.update = function() {
   // In portrait VR mode, tell the user to rotate to landscape. Otherwise, hide
   // the instructions.
   if (!Util.isLandscapeMode() && Util.isMobile()) {
-    this.show();
+      this.hide(); //this.show();
   } else {
     this.hide();
   }
