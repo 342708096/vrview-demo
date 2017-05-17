@@ -1,0 +1,14 @@
+{
+  "name": "vrview",
+  "description": "vrview demo",
+  "version": "1.0.0",
+  "repository": "git@http://gvrcraft.com:8080/git/gvrh5.git",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files *.*"
+  }
+}
